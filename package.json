@@ -1,0 +1,22 @@
+{
+  "name": "ruby",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ruby: a private Number One support bot. Changelogs from GitHub, forum post monitoring and tagging. Blackpink themed, clean voice.",
+  "type": "module",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "start": "node src/index.ts",
+    "test": "node --test \"test/*.test.ts\"",
+    "check": "tsc -p ."
+  },
+  "dependencies": {
+    "discord.js": "^14.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
